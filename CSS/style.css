@@ -5,8 +5,8 @@ body {
   font-family: "Merriweather", serif;
 }
 .top-container {
-  background-color:#ff7b54;
-  padding-top: 200px;
+  background-image: linear-gradient(to right, #f18869, #d99d53, #b6b055, #8cbf70, #59c99a);
+  padding-top: 40px;
   position: relative;
 }
 
@@ -79,8 +79,9 @@ body {
 }
 .top-cloud {
   position: absolute;
-  top: 160px;
-  right: 350px;
+  top: 270px;
+  right: 300px;
+  
 }
 .bottom-cloud {
   position: absolute;
@@ -122,7 +123,7 @@ p {
 .bottom-container{
   margin: 60px auto 0 auto;
   padding: 50px 0 20px;
-  background-color: #ff7b54;
+  background-image: linear-gradient(to right, #f18869, #d99d53, #b6b055, #8cbf70, #59c99a);;
 }
 
 a{
@@ -162,7 +163,7 @@ a:hover{
 }
 
 .hobbies{
-  background-color: #ff7b54;
+  background-image: linear-gradient(to right, #f18869, #d99d53, #b6b055, #8cbf70, #59c99a);
   padding-top: 30px;
   height: 700px;
 }
@@ -172,4 +173,34 @@ a:hover{
 .btc{
   color: #ffffff;
   text-decoration: none;
+}
+
+.decoration{
+  margin-top: 100px;
+}
+
+
+.navbar-custom .navbar-brand{ 
+  color:white;
+  font-size: 3rem; 
+} 
+
+.navitem{
+  color: #eaf6f6;
+  text-decoration: none;
+  margin-right: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.logo{
+  width: 30%;
+}
+.container-fluid{
+  padding-right: 200px;
+}
+.asdf{
+  color: #40514e;
+  font-weight: bold;
 }
